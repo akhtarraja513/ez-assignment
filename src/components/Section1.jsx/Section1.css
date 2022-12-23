@@ -128,6 +128,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: rgba(18, 11, 35, 0.975);
+    background-color: rgb(20, 12, 38);
     color: #ddd;
+    max-height: 4.36rem;
+    overflow-y: auto;
 }
