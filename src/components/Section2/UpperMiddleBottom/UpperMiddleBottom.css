@@ -1,0 +1,51 @@
+.upperMiddleBottom {
+    display: flex;
+    height: 100%;
+}
+
+.up-mid-bottm-left {
+    /* border: 1px solid red; */
+    width: 30%;
+    /* height: 90px; */
+    display: flex;
+    flex-direction: column;
+    gap: 1.4rem;
+    padding-left: 1.0rem;
+}
+
+
+
+.comp-name {
+    font-size: 1.5rem;
+    color: rgb(53, 53, 53);
+}
+
+.upm-middle, .upm-bottom {
+    height: 4.2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.comp-code-name, .comp-logo-name {
+    font-size: 1.2rem;
+    color: rgb(102, 102, 102);
+}
+
+.comp-code, .comp-logo {
+    font-size: 1.4rem;
+    color: rgb(47, 47, 47);
+}
+
+.up-mid-bottm-right {
+    /* border: 1px solid red; */
+    width: 70%;
+    font-size: 1.3rem;
+}
+
+.domain {
+    color: rgb(102, 102, 102);
+}
+
+.emailid, .more {
+    color: rgb(47, 47, 47);
+}

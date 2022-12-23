@@ -1,0 +1,133 @@
+.section1 {
+    background-color: rgb(249, 248, 250);
+    width: 25%;
+    display: flex;
+}
+
+.leftSection { 
+    background-color: rgba(18, 11, 35, 0.975);
+    width: 15%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1.0rem;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+}
+
+.one {
+    cursor: pointer;
+}
+
+.one:hover {
+    border: 1px solid #fff;
+    border-radius: 0.rem;
+}
+
+.blank_div {
+    height: 3.5rem;
+    background-color: rgb(183, 85, 163);
+    border-radius: .5rem;
+    cursor: pointer;
+}
+
+.blank_div:hover {
+    border: 5px solid #fff;
+    border-radius: .5rem;
+}
+
+.rightSection {
+    width: 85%;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    border: 1px solid #fff;
+    height: 100%;
+    padding: .5rem;
+}
+
+.right1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.right1 > h1 {
+    font-weight: 400;
+}
+
+.right1 > h1 > span {
+    font-size: 1.2rem;
+    color:  rgb(47, 224, 224);
+}
+
+.right1 > button {
+    background-color: rgb(47, 224, 224);
+    border: none;
+    width: 3.0rem;
+    height: 2.5rem;
+    color: #fff;
+    cursor: pointer;
+    border-radius: .5rem;
+}
+
+.right2 {
+    position: relative;
+}
+
+.right2 > input {
+    padding: .5rem;
+    border: 1px solid #ddd;
+    width: 100%;
+    height: 2.0rem;
+    border-radius: .5rem;
+    outline: #fff;
+    font-style: italic;
+    position: relative;
+}
+
+.search {
+    position: absolute;
+    top: .5rem;
+    right: .3rem;
+    width: 1.3rem;
+    border-radius: 50%;
+    cursor: pointer;
+    border: none;
+    color: rgb(47, 224, 224);
+}
+
+.right3 {
+    height: 2.0rem;
+    width: 100%;
+    background-color: #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.3rem;;
+    font-size: 1.2rem;
+}
+
+.right3-icon {
+    cursor: pointer;
+}
+
+.right-4-sections {
+    height: 4.36rem;
+    border-radius: .7rem;
+    margin-bottom: .5rem;
+    padding: 0 .5rem;
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(18, 11, 35, 0.975);
+    color: #ddd;
+}

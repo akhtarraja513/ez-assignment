@@ -1,0 +1,15 @@
+.lower-middle-comp {
+    /* background-color: blueviolet; */
+    /* border: 1px solid red; */
+    padding-left: 0.5rem;
+    padding-bottom: 0.2rem;
+    height: 2.0rem;
+    display: flex;
+    align-items: center;
+    gap: 1.0rem;
+    background-color: #ddd;
+    cursor: pointer;
+    font-size: 1.15rem;
+    color: rgb(70, 70, 70);
+    border-radius: 0.5rem;
+}

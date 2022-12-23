@@ -1,0 +1,32 @@
+.up-mid-upper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 1.0rem;
+}
+
+.upm-top-left {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.pdf-icon {
+    color: crimson;
+    font-size: 3.2rem;
+    cursor: pointer;
+}
+
+.upm-top-right button {
+    width: 100px;
+    height: 3.0rem;
+    border-radius: 1.0rem;
+    border: none;
+    background-color: rgb(47, 224, 224);
+    color: #fff;
+}
+
+.upm-top-right button:hover {
+    cursor: pointer;
+    background-color: rgb(1, 166, 166);
+}

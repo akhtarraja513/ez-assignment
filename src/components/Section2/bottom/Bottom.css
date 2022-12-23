@@ -1,0 +1,64 @@
+.bottom-comp {
+    /* border: 1px solid red; */
+    height: 100%;
+    margin: .5rem;
+    border-radius: 1.0rem;
+    background-color: #fff;
+}
+
+.bottom1 {
+    /* border: 1px solid blue; */
+    padding: 1.0rem 1.0rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 0.5rem;
+}
+
+.bottom1 .entities {
+    font-size: 1.4rem;
+    color: rgb(23, 23, 23);
+}
+
+.bottom1 button {
+    background-color: rgb(47, 224, 224);
+    border: none;
+    width: 3.0rem;
+    height: 2.5rem;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 0.5rem;
+}
+
+.bottom2 {
+    /* border: 1px solid red; */
+    padding: 0.5rem 1.0rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: rgb(102, 102, 102);
+    font-size: 1.4rem;
+}
+
+.bottom3 {
+    /* border: 1px solid red; */
+    margin: 0 0.5rem;
+    padding: 0.5rem 0.5rem;
+    background-color: rgb(234, 234, 234);
+    color: rgb(56, 56, 56);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-top-right-radius: 0.7rem;
+    border-top-left-radius: 0.7rem;
+}
+
+.bottom4 {
+    /* border: 1px solid red; */
+    margin: 0 0.5rem;
+    padding: 0.5rem 0.5rem;
+    background-color: rgb(234, 234, 234);
+    color: rgb(87, 87, 87);
+    border-bottom-left-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+}
